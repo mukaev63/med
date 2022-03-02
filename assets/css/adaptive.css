@@ -1,0 +1,134 @@
+/* Адаптация style.css */
+@media only screen and (max-width: 992px) {
+  .wrapper {
+      background-size: 140%;
+      background-position: center;
+  }
+  .form-wrapper {
+      width: 50%;
+  }
+  .role-wrapper {
+      margin-bottom: 20px;
+  }
+  .role-login {
+      padding: 10px;
+  }
+  .role-login-text {
+      font-size: 20px;
+  }
+
+  /* Адаптация patient-page.css */
+  body {
+    background-size: 142%;
+    background-position: center;
+  }
+  .navbar {
+      width: 75%;
+      margin: 0 auto;
+  }
+
+  /* Адаптация patient-page.css */
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+      background-size: 282%;
+      background-position: center;
+  }
+  .form-wrapper {
+      width: 80%;
+  }
+  .role-wrapper {
+      margin-bottom: 20px;
+  }
+  .role-login {
+      padding: 10px;
+  }
+  .role-login-text {
+      font-size: 20px;
+  }
+
+  /* Адаптация patient-page.css */
+  body {
+    background-size: 282%;
+    background-position: center;
+  }
+  .navbar {
+      width: 75%;
+      margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+      background-size: 290%;
+      background-position: center;
+  }
+  .form-wrapper {
+      width: 70%;
+  }
+  .role-wrapper {
+      margin-bottom: 5px;
+  }
+  .role-login {
+      padding: 8px;
+  }
+  .role-login-text {
+      font-size: 15px;
+  }
+  input {
+    height: 40px;
+  }
+
+  /* Адаптация patient-page.css */
+  body {
+    background-size: 290%;
+    background-position: center;
+  }
+  .navbar {
+      width: 75%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .card-title {
+      font-size: 25px;
+  }
+  .card-text {
+      font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .wrapper {
+      background-size: 400%;
+      background-position: center;
+  }
+  .form-wrapper {
+      width: 80%;
+  }
+  .role-login {
+      padding: 6px;
+  }
+  .role-login-text {
+      font-size: 15px;
+  }
+  input {
+    height: 40px;
+  }
+
+  /* Адаптация patient-page.css */
+  body {
+    background-size: 400%;
+    background-position: center;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .card-title {
+      font-size: 20px;
+  }
+  .card-text {
+      font-size: 15px;
+  }
+}
