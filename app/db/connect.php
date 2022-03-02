@@ -1,10 +1,10 @@
 <?php
 
 $driver = 'postgresql';
-$host = 'ec2-54-83-21-198.compute-1.amazonaws.com';
-$db_name = 'd1e96jcbqukpke';
-$db_user = 'eabzomaiwwtqsv';
-$db_pass = '1d5850829323a5c4319d1cc7bdcbd9f219a95f43a192f66de957f0b7ddbd7910';
+$host = 'ec2-54-157-160-218.compute-1.amazonaws.com';
+$db_name = 'ddv6k1fmqr6pa1';
+$db_user = 'csavfuxtulbkcf';
+$db_pass = '94c050246aa7dfe4d836813a55a20330d688cf748834ff6bde45375a5479b6ab';
 $charset = 'utf8';
 $options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
